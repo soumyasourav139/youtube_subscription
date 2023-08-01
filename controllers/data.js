@@ -37,16 +37,18 @@ const getAllDataName = async(req,res)=>
 // TO GET THE ONLY ONE SUBSCRIBER DATA WHICH IS FIND BY ID
 const getAllDataId = async(req,res)=>
 {
+   try{
     const  _id=req.params.id;
 
      //mongoose findById() function to find a single document by its _id field.
     const subscriberData = await subscriber.findById(_id);
-
+res.send(subscriberData);
+   }
+   catch(error){
     //  incase if we enter wrong id
     res.status(400).send({message:"Error! Subscriber Id does not exist"});
 }
-
-
+}
 
 
 //Exports module

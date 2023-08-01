@@ -1,4 +1,4 @@
-//inport mongoose  module
+//mnport mongoose  module
 const mongoose =require("mongoose");
 const { options } = require("../routes/data");
 

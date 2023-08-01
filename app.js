@@ -26,7 +26,7 @@ app.get("/",(req,res)=>
 
 
 //middlewera ot to set router
-app.use("/subscriber",subscriber_routes);
+app.use("/subscribers",subscriber_routes);
 
 
 const start = async()=>
