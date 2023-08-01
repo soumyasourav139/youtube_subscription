@@ -14,7 +14,7 @@ router.route("/").get(getAllData);
 
 
 // TO GET NAME AND SUBSCRIBED CHANNEL OF SUBSCRIBERS
-router.route("/name").get(getAllDataName);
+router.route("/names").get(getAllDataName);
 
 // TO GET THE ONLY ONE SUBSCRIBER DATA WHICH IS FIND BY ID
 router.route("/:id").get(getAllDataId);
