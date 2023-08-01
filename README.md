@@ -17,7 +17,7 @@
 
 6. **GET http://localhost:3000/something** → when the user hit the unwanted route which is not mentioned above (which is used to handle all other requests), they will get an error message like Route not found in JSON format with an 404 error status code.
 
-**We are getting results from Mongo DB Atlas Cloud but not Heroku app as it was not clearly explained in our online classes. We tried our best to deploy the project on Heroku but somehow some Application Error is coming up, therefore its not working on Heroku deployment link. But its working perfectly fine on vscode with MongoDB atlas cloud (please note: its working perfectly fine on MongoDB Atlas Cloud as well as on local system)**
+
 
 > **Note:** If the wrong ***:id*** is entered in the url, then the client will encounter ```400 Bad Request``` status code indicating that the server cannot or will not process the request due to something that is perceived to be a client error.
 
